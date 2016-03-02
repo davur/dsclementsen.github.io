@@ -216,27 +216,32 @@
 .post-content {
     margin-bottom: $spacing-unit;
 
-    h2 {
-        font-size: 32px;
+    font-size: 11pt;
 
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
+    h1 {
+        font-size: 12pt;
+        text-transform: uppercase;
+        background-color: #6799D3;
+        color: #fff;
+        padding: 0.2em;
+    }
+    h2 {
+        margin-top: 2em;
+        font-weight: normal;
+        font-size: 12pt;
+        text-transform: uppercase;
+        background-color: #E0EAF6;
+        padding: 0.2em;
     }
 
     h3 {
-        font-size: 26px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
+        font-size: 1em;
+        color: #2A4B77;
+        text-transform: uppercase;
+        margin-bottom: 5px;
     }
 
     h4 {
         font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
     }
 }
